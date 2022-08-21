@@ -26,7 +26,7 @@
         <form action="" class="settings_form">
           <div class="bill">
             <label for="bill" class="bill_label label">Bill <span class="span_in_label">Can't be zero</span> </label>
-            <input class="bill_input input" type="number" name="bill" id="bill" step=".01" placeholder="0.00" min="0.01" max="999999.99"> 
+            <input class="bill_input input" type="number" name="bill" id="bill" step=".01" placeholder="0.00" min="0.01" max="999999.99" autocomplete="off"> 
           </div>
           
           <div class="tip">
@@ -44,7 +44,7 @@
 
                 <input type="text" class="tip_input" placeholder="50" value="50%" readonly>
               
-                <input type="text" class="input_custom input" placeholder="Custom" maxlength="4">
+                <input type="text" class="input_custom input" placeholder="Custom" maxlength="4" autocomplete="off">
               </div>
                 
             </fieldset>
@@ -52,7 +52,7 @@
           
           <div class="people">
             <label for="people" class="people_label label">Number of People <span class="span_in_label" >Can't be zero</span> </label>
-            <input class="people_input input" type="number" name="people" id="people" step="1" min="1" placeholder="0" max="999">
+            <input class="people_input input" type="number" name="people" id="people" step="1" min="1" placeholder="0" max="999" autocomplete="off">
           </div>
         </form>
       </div>
