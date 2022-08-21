@@ -144,12 +144,12 @@ main {
 }
 
 .bill_input {
-    background: url(/images/icon-dollar.svg) no-repeat 17px;
+    background: url(./images/icon-dollar.svg) no-repeat 17px;
     background-color: #F3F9FA;
 }
 
 .people_input {
-    background: url(/images/icon-person.svg) no-repeat 17px;
+    background: url(./images/icon-person.svg) no-repeat 17px;
     background-color: #F3F9FA;
 }
 
